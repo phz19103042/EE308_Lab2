@@ -106,7 +106,7 @@ int binsearch(char *word, struct key tab[], int n){
 main(){
     int n;
     char word[MAXWORD];
-    printf("Please input the code above£º");
+    printf("Please input the code aboveÂ£Âº");
     while (getword(word,MAXWORD) != EOF)
         if (isalpha(word[0]))
             if ((n = binsearch(word, keytab, NKEYS)) >= 0) 
